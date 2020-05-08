@@ -1,0 +1,85 @@
+﻿@model IEnumerable<MVC.Models.VendedorDetalle>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+</br>
+
+<h2>Lista de Vendedores</h2>
+
+<p>
+    <a href="@Url.Action("AddOrEdit", "Vendedor")" class="btn btn-default"><i class="fa fa-plus"></i>Crear Nuevo</a>
+</p>
+
+<table class="table table-striped">
+    <thead class="table-heading">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Codigo_Ciudad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Codigo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Apellido)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Numero_Identificacion)
+            </th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Codigo_Ciudad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descripcion)
+            </td>
+            <th>
+                @Html.DisplayFor(modelItem => item.Codigo)
+            </th>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Apellido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Numero_Identificacion)
+            </td>
+            <td>
+                <a href="@Url.Action("AddOrEdit", "Vendedor", new { id = item.Codigo})" class="btn btn-default"><i class="fa fa-pencil"></i>Modificar</a>
+                <a onclick="Delete(@item.Codigo)" class="btn btn-default"><i class="fa fa-trash"></i>Eliminar</a>
+            </td>
+        </tr>
+
+    }
+
+
+</table>
+
+@section scripts{
+    <script>
+        $(function () {
+            var successMessage = '@TempData["SuccessMessage"]'
+            if (successMessage != '')
+                alertify.success(successMessage);
+        });
+        function Delete(id) {
+            alertify.confirm('Web Api CRUD Operations', 'Desea eliminar el vendedor seleccionado ?', function () {
+                window.location.href = '@Url.Action("Delete", "Vendedor")/' + id;
+            }, null);
+        }
+    </script>
+}

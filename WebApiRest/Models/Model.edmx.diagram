@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0e897cfa903d4a4e874f5f8912ca4a5d" Name="Diagram1">
+        <EntityTypeShape EntityType="MaestroDetalleModel.Ciudad" Width="1.5" PointX="0.75" PointY="1.25" />
+        <EntityTypeShape EntityType="MaestroDetalleModel.Vendedor" Width="1.5" PointX="3" PointY="0.875" />
+        <EntityTypeShape EntityType="MaestroDetalleModel.VendedorDetalle" Width="1.5" PointX="0.75" PointY="4.75" />
+        <AssociationConnector Association="MaestroDetalleModel.FK__Vendedor__Codigo__5812160E" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

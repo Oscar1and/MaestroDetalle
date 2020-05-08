@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="MaestroDetalleModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Ciudad">
+          <Key>
+            <PropertyRef Name="Codigo_Ciudad" />
+          </Key>
+          <Property Name="Codigo_Ciudad" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Descripcion" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Vendedor">
+          <Key>
+            <PropertyRef Name="Codigo" />
+          </Key>
+          <Property Name="Codigo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="varchar" MaxLength="100" />
+          <Property Name="Apellido" Type="varchar" MaxLength="100" />
+          <Property Name="Numero_Identificacion" Type="varchar" MaxLength="20" />
+          <Property Name="Codigo_Ciudad" Type="int" />
+        </EntityType>
+        <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'devbdtest.dbo.VendedorDetalle' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <EntityType Name="VendedorDetalle">
+          <Key>
+            <PropertyRef Name="Codigo" />
+            <PropertyRef Name="Codigo_Ciudad" />
+          </Key>
+          <Property Name="Codigo" Type="int" Nullable="false" />
+          <Property Name="Nombre" Type="varchar" MaxLength="100" />
+          <Property Name="Apellido" Type="varchar" MaxLength="100" />
+          <Property Name="Numero_Identificacion" Type="varchar" MaxLength="20" />
+          <Property Name="Codigo_Ciudad" Type="int" Nullable="false" />
+          <Property Name="Descripcion" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'devbdtest.sys.database_firewall_rules' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <Association Name="FK__Vendedor__Codigo__5812160E">
+          <End Role="Ciudad" Type="Self.Ciudad" Multiplicity="0..1" />
+          <End Role="Vendedor" Type="Self.Vendedor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Ciudad">
+              <PropertyRef Name="Codigo_Ciudad" />
+            </Principal>
+            <Dependent Role="Vendedor">
+              <PropertyRef Name="Codigo_Ciudad" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="MaestroDetalleModelStoreContainer">
+          <EntitySet Name="Ciudad" EntityType="Self.Ciudad" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Vendedor" EntityType="Self.Vendedor" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="VendedorDetalle" EntityType="Self.VendedorDetalle" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [VendedorDetalle].[Codigo] AS [Codigo], 
+    [VendedorDetalle].[Nombre] AS [Nombre], 
+    [VendedorDetalle].[Apellido] AS [Apellido], 
+    [VendedorDetalle].[Numero_Identificacion] AS [Numero_Identificacion], 
+    [VendedorDetalle].[Codigo_Ciudad] AS [Codigo_Ciudad], 
+    [VendedorDetalle].[Descripcion] AS [Descripcion]
+    FROM [dbo].[VendedorDetalle] AS [VendedorDetalle]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="FK__Vendedor__Codigo__5812160E" Association="Self.FK__Vendedor__Codigo__5812160E">
+            <End Role="Ciudad" EntitySet="Ciudad" />
+            <End Role="Vendedor" EntitySet="Vendedor" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MaestroDetalleModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="MaestroDetalleEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Ciudads" EntityType="MaestroDetalleModel.Ciudad" />
+          <EntitySet Name="Vendedors" EntityType="MaestroDetalleModel.Vendedor" />
+          <EntitySet Name="VendedorDetalles" EntityType="MaestroDetalleModel.VendedorDetalle" />
+          <AssociationSet Name="FK__Vendedor__Codigo__5812160E" Association="MaestroDetalleModel.FK__Vendedor__Codigo__5812160E">
+            <End Role="Ciudad" EntitySet="Ciudads" />
+            <End Role="Vendedor" EntitySet="Vendedors" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Ciudad">
+          <Key>
+            <PropertyRef Name="Codigo_Ciudad" />
+          </Key>
+          <Property Name="Codigo_Ciudad" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Descripcion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Vendedors" Relationship="MaestroDetalleModel.FK__Vendedor__Codigo__5812160E" FromRole="Ciudad" ToRole="Vendedor" />
+        </EntityType>
+        <EntityType Name="Vendedor">
+          <Key>
+            <PropertyRef Name="Codigo" />
+          </Key>
+          <Property Name="Codigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Apellido" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Numero_Identificacion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Codigo_Ciudad" Type="Int32" />
+          <NavigationProperty Name="Ciudad" Relationship="MaestroDetalleModel.FK__Vendedor__Codigo__5812160E" FromRole="Vendedor" ToRole="Ciudad" />
+        </EntityType>
+        <EntityType Name="VendedorDetalle">
+          <Key>
+            <PropertyRef Name="Codigo" />
+            <PropertyRef Name="Codigo_Ciudad" />
+          </Key>
+          <Property Name="Codigo" Type="Int32" Nullable="false" />
+          <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Apellido" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Numero_Identificacion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Codigo_Ciudad" Type="Int32" Nullable="false" />
+          <Property Name="Descripcion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <Association Name="FK__Vendedor__Codigo__5812160E">
+          <End Type="MaestroDetalleModel.Ciudad" Role="Ciudad" Multiplicity="0..1" />
+          <End Type="MaestroDetalleModel.Vendedor" Role="Vendedor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Ciudad">
+              <PropertyRef Name="Codigo_Ciudad" />
+            </Principal>
+            <Dependent Role="Vendedor">
+              <PropertyRef Name="Codigo_Ciudad" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="MaestroDetalleModelStoreContainer" CdmEntityContainer="MaestroDetalleEntities">
+          <EntitySetMapping Name="Ciudads">
+            <EntityTypeMapping TypeName="MaestroDetalleModel.Ciudad">
+              <MappingFragment StoreEntitySet="Ciudad">
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="Codigo_Ciudad" ColumnName="Codigo_Ciudad" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Vendedors">
+            <EntityTypeMapping TypeName="MaestroDetalleModel.Vendedor">
+              <MappingFragment StoreEntitySet="Vendedor">
+                <ScalarProperty Name="Codigo_Ciudad" ColumnName="Codigo_Ciudad" />
+                <ScalarProperty Name="Numero_Identificacion" ColumnName="Numero_Identificacion" />
+                <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VendedorDetalles">
+            <EntityTypeMapping TypeName="MaestroDetalleModel.VendedorDetalle">
+              <MappingFragment StoreEntitySet="VendedorDetalle">
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="Codigo_Ciudad" ColumnName="Codigo_Ciudad" />
+                <ScalarProperty Name="Numero_Identificacion" ColumnName="Numero_Identificacion" />
+                <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MaestroDetalleModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Ciudad">
+    <Key>
+      <PropertyRef Name="Codigo_Ciudad" />
+    </Key>
+    <Property Name="Codigo_Ciudad" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Vendedor">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="100" />
+    <Property Name="Apellido" Type="varchar" MaxLength="100" />
+    <Property Name="Numero_Identificacion" Type="varchar" MaxLength="20" />
+    <Property Name="Codigo_Ciudad" Type="int" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'devbdtest.dbo.VendedorDetalle' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="VendedorDetalle">
+    <Key>
+      <PropertyRef Name="Codigo" />
+      <PropertyRef Name="Codigo_Ciudad" />
+    </Key>
+    <Property Name="Codigo" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="100" />
+    <Property Name="Apellido" Type="varchar" MaxLength="100" />
+    <Property Name="Numero_Identificacion" Type="varchar" MaxLength="20" />
+    <Property Name="Codigo_Ciudad" Type="int" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'devbdtest.sys.database_firewall_rules' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <Association Name="FK__Vendedor__Codigo__5812160E">
+    <End Role="Ciudad" Type="Self.Ciudad" Multiplicity="0..1" />
+    <End Role="Vendedor" Type="Self.Vendedor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ciudad">
+        <PropertyRef Name="Codigo_Ciudad" />
+      </Principal>
+      <Dependent Role="Vendedor">
+        <PropertyRef Name="Codigo_Ciudad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MaestroDetalleModelStoreContainer">
+    <EntitySet Name="Ciudad" EntityType="Self.Ciudad" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vendedor" EntityType="Self.Vendedor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VendedorDetalle" EntityType="Self.VendedorDetalle" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [VendedorDetalle].[Codigo] AS [Codigo], 
+    [VendedorDetalle].[Nombre] AS [Nombre], 
+    [VendedorDetalle].[Apellido] AS [Apellido], 
+    [VendedorDetalle].[Numero_Identificacion] AS [Numero_Identificacion], 
+    [VendedorDetalle].[Codigo_Ciudad] AS [Codigo_Ciudad], 
+    [VendedorDetalle].[Descripcion] AS [Descripcion]
+    FROM [dbo].[VendedorDetalle] AS [VendedorDetalle]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__Vendedor__Codigo__5812160E" Association="Self.FK__Vendedor__Codigo__5812160E">
+      <End Role="Ciudad" EntitySet="Ciudad" />
+      <End Role="Vendedor" EntitySet="Vendedor" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

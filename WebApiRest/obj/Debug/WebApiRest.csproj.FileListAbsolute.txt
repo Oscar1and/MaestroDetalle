@@ -1,0 +1,262 @@
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\WebApiRest.dll.config
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\WebApiRest.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\WebApiRest.pdb
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\csc.exe
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\csc.exe.config
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\csc.rsp
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\csi.exe
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\csi.exe.config
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\csi.rsp
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.AppContext.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.Collections.Immutable.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.Console.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.Globalization.Calendars.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.IO.Compression.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.IO.FileSystem.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.Net.Http.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.Net.Sockets.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.Reflection.Metadata.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.ValueTuple.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.Xml.XPath.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\vbc.exe
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\vbc.exe.config
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\vbc.rsp
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\VBCSCompiler.exe
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\roslyn\VBCSCompiler.exe.config
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\Antlr3.Runtime.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\EntityFramework.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\EntityFramework.SqlServer.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\Microsoft.Web.Infrastructure.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\Newtonsoft.Json.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\System.Net.Http.Formatting.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\System.Web.Helpers.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\System.Web.Http.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\System.Web.Http.WebHost.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\System.Web.Mvc.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\System.Web.Optimization.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\System.Web.Razor.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\System.Web.WebPages.Deployment.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\System.Web.WebPages.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\System.Web.WebPages.Razor.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\WebGrease.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\EntityFramework.xml
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\EntityFramework.SqlServer.xml
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\Newtonsoft.Json.xml
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\System.Net.Http.Formatting.xml
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\System.Web.Helpers.xml
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\System.Web.Http.xml
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\System.Web.Http.WebHost.xml
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\System.Web.Mvc.xml
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\System.Web.Optimization.xml
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\System.Web.Razor.xml
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\System.Web.WebPages.xml
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\System.Web.WebPages.Deployment.xml
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\System.Web.WebPages.Razor.xml
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\Antlr3.Runtime.pdb
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\obj\Debug\WebApiRest.csprojAssemblyReference.cache
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\obj\Debug\WebApiRest.csproj.CopyComplete
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\obj\Debug\WebApiRest.dll
+C:\Proyectos\Prueba\WebApiMVC\WebApiRest\obj\Debug\WebApiRest.pdb
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\WebApiRest.dll.config
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\WebApiRest.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\WebApiRest.pdb
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\csc.exe
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\csc.exe.config
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\csc.rsp
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\csi.exe
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\csi.exe.config
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\csi.rsp
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.AppContext.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.Console.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.IO.Compression.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.Net.Http.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.Net.Sockets.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.ValueTuple.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.Xml.XPath.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\vbc.exe
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\vbc.exe.config
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\vbc.rsp
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\VBCSCompiler.exe
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\Antlr3.Runtime.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\EntityFramework.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\EntityFramework.SqlServer.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\Newtonsoft.Json.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\System.Net.Http.Formatting.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\System.Web.Helpers.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\System.Web.Http.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\System.Web.Http.WebHost.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\System.Web.Mvc.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\System.Web.Optimization.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\System.Web.Razor.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\System.Web.WebPages.Deployment.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\System.Web.WebPages.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\System.Web.WebPages.Razor.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\WebGrease.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\EntityFramework.xml
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\EntityFramework.SqlServer.xml
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\Newtonsoft.Json.xml
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\System.Net.Http.Formatting.xml
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\System.Web.Helpers.xml
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\System.Web.Http.xml
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\System.Web.Http.WebHost.xml
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\System.Web.Mvc.xml
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\System.Web.Optimization.xml
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\System.Web.Razor.xml
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\System.Web.WebPages.xml
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\System.Web.WebPages.Deployment.xml
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\System.Web.WebPages.Razor.xml
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\Antlr3.Runtime.pdb
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\obj\Debug\WebApiRest.dll
+C:\Users\asarmiento3\OneDrive - DXC Production\Desktop\New folder\WebApiMVC 1\WebApiMVC\WebApiRest\obj\Debug\WebApiRest.pdb
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\WebApiRest.dll.config
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\WebApiRest.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\WebApiRest.pdb
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\csc.exe
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\csc.exe.config
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\csc.rsp
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\csi.exe
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\csi.exe.config
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\csi.rsp
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.AppContext.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.Collections.Immutable.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.Console.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.Globalization.Calendars.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.IO.Compression.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.IO.FileSystem.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.Net.Http.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.Net.Sockets.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.Reflection.Metadata.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.ValueTuple.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.Xml.XPath.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\vbc.exe
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\vbc.exe.config
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\vbc.rsp
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\VBCSCompiler.exe
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\roslyn\VBCSCompiler.exe.config
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\Antlr3.Runtime.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\EntityFramework.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\EntityFramework.SqlServer.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\Microsoft.Web.Infrastructure.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\Newtonsoft.Json.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\System.Net.Http.Formatting.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\System.Web.Helpers.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\System.Web.Http.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\System.Web.Http.WebHost.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\System.Web.Mvc.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\System.Web.Optimization.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\System.Web.Razor.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\System.Web.WebPages.Deployment.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\System.Web.WebPages.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\System.Web.WebPages.Razor.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\WebGrease.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\EntityFramework.xml
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\EntityFramework.SqlServer.xml
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\Newtonsoft.Json.xml
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\System.Net.Http.Formatting.xml
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\System.Web.Helpers.xml
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\System.Web.Http.xml
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\System.Web.Http.WebHost.xml
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\System.Web.Mvc.xml
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\System.Web.Optimization.xml
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\System.Web.Razor.xml
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\System.Web.WebPages.xml
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\System.Web.WebPages.Deployment.xml
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\System.Web.WebPages.Razor.xml
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\Antlr3.Runtime.pdb
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\obj\Debug\WebApiRest.csproj.CopyComplete
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\obj\Debug\WebApiRest.dll
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\obj\Debug\WebApiRest.pdb
+C:\Personal\PruebaTecnica\WebApiMVC\WebApiRest\obj\Debug\WebApiRest.csprojAssemblyReference.cache

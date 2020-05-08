@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MaestroDetalleModelStoreContainer" CdmEntityContainer="MaestroDetalleEntities">
+    <EntitySetMapping Name="Ciudads">
+      <EntityTypeMapping TypeName="MaestroDetalleModel.Ciudad">
+        <MappingFragment StoreEntitySet="Ciudad">
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Codigo_Ciudad" ColumnName="Codigo_Ciudad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vendedors">
+      <EntityTypeMapping TypeName="MaestroDetalleModel.Vendedor">
+        <MappingFragment StoreEntitySet="Vendedor">
+          <ScalarProperty Name="Codigo_Ciudad" ColumnName="Codigo_Ciudad" />
+          <ScalarProperty Name="Numero_Identificacion" ColumnName="Numero_Identificacion" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VendedorDetalles">
+      <EntityTypeMapping TypeName="MaestroDetalleModel.VendedorDetalle">
+        <MappingFragment StoreEntitySet="VendedorDetalle">
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Codigo_Ciudad" ColumnName="Codigo_Ciudad" />
+          <ScalarProperty Name="Numero_Identificacion" ColumnName="Numero_Identificacion" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

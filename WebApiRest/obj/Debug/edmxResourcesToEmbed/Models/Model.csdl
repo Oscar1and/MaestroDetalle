@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MaestroDetalleModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="MaestroDetalleEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Ciudads" EntityType="MaestroDetalleModel.Ciudad" />
+    <EntitySet Name="Vendedors" EntityType="MaestroDetalleModel.Vendedor" />
+    <EntitySet Name="VendedorDetalles" EntityType="MaestroDetalleModel.VendedorDetalle" />
+    <AssociationSet Name="FK__Vendedor__Codigo__5812160E" Association="MaestroDetalleModel.FK__Vendedor__Codigo__5812160E">
+      <End Role="Ciudad" EntitySet="Ciudads" />
+      <End Role="Vendedor" EntitySet="Vendedors" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Ciudad">
+    <Key>
+      <PropertyRef Name="Codigo_Ciudad" />
+    </Key>
+    <Property Name="Codigo_Ciudad" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descripcion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Vendedors" Relationship="MaestroDetalleModel.FK__Vendedor__Codigo__5812160E" FromRole="Ciudad" ToRole="Vendedor" />
+  </EntityType>
+  <EntityType Name="Vendedor">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Apellido" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Numero_Identificacion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Codigo_Ciudad" Type="Int32" />
+    <NavigationProperty Name="Ciudad" Relationship="MaestroDetalleModel.FK__Vendedor__Codigo__5812160E" FromRole="Vendedor" ToRole="Ciudad" />
+  </EntityType>
+  <EntityType Name="VendedorDetalle">
+    <Key>
+      <PropertyRef Name="Codigo" />
+      <PropertyRef Name="Codigo_Ciudad" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Apellido" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Numero_Identificacion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Codigo_Ciudad" Type="Int32" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK__Vendedor__Codigo__5812160E">
+    <End Type="MaestroDetalleModel.Ciudad" Role="Ciudad" Multiplicity="0..1" />
+    <End Type="MaestroDetalleModel.Vendedor" Role="Vendedor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ciudad">
+        <PropertyRef Name="Codigo_Ciudad" />
+      </Principal>
+      <Dependent Role="Vendedor">
+        <PropertyRef Name="Codigo_Ciudad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
